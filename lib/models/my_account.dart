@@ -8,7 +8,7 @@ class MyAccount {
   final String birthday;
   final String phone;
   final String introduction;
-  late String profileImage;
+  late String profileImage = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/2560px-Cat_poster_1.jpg";
   final String backgroundImage;
 
   MyAccount({

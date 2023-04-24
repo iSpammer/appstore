@@ -55,7 +55,7 @@ class _BodyState extends State<Body> {
                   height: 100,
                   child: CircleAvatar(
                     backgroundImage: (viewModel.myAccount?.profileImage ?? "").isNotEmpty ?
-                      NetworkImage(viewModel.myAccount?.profileImage ?? "") : AssetImage("assets/images/Profile Image.png") as ImageProvider
+                      NetworkImage(viewModel.myAccount?.profileImage ?? "") : NetworkImage("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/2560px-Cat_poster_1.jpg") as ImageProvider
                   )
                 ),
 
@@ -85,7 +85,7 @@ class _BodyState extends State<Body> {
           ),
 
           MyAccountCell(
-            title: "名稱",
+            title: "Name",
             value: viewModel.myAccount?.name ?? "",
             didTapped: () {
               Navigator.push(
@@ -100,7 +100,7 @@ class _BodyState extends State<Body> {
           ),
 
           MyAccountCell(
-            title: "使用者帳號",
+            title: "Account name",
             value: viewModel.myAccount?.account ?? "",
             didTapped: () {
               Navigator.push(
@@ -115,7 +115,7 @@ class _BodyState extends State<Body> {
           ),
 
           MyAccountCell(
-            title: "簡介",
+            title: "Intro",
             value: viewModel.myAccount?.introduction ?? "",
             didTapped: () {
               Navigator.push(
@@ -138,7 +138,7 @@ class _BodyState extends State<Body> {
 
 
           MyAccountCell(
-            title: "性別",
+            title: "Gender",
             value: viewModel.myAccount?.gender ?? "",
             didTapped: () {
 
@@ -161,7 +161,7 @@ class _BodyState extends State<Body> {
           ),
 
           MyAccountCell(
-            title: "生日",
+            title: "Birthdate",
             value: viewModel.myAccount?.birthday ?? "",
             didTapped: () {
               showCupertinoModalPopup(context: context, builder: (context) {
@@ -173,7 +173,7 @@ class _BodyState extends State<Body> {
           ),
 
           MyAccountCell(
-            title: "手機號碼",
+            title: "Mobile Number",
             value: viewModel.myAccount?.phone ?? "",
             didTapped: () {
               Navigator.push(
@@ -203,7 +203,7 @@ class _BodyState extends State<Body> {
           ),
 
           MyAccountCell(
-            title: "密碼變更",
+            title: "password",
             value: "",
             didTapped: () {
               Navigator.push(
