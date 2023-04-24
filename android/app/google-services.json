@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "290419748164",
+    "project_id": "carisma-bf415",
+    "storage_bucket": "carisma-bf415.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290419748164:android:6248551a0dd2f3e5fbfb11",
+        "android_client_info": {
+          "package_name": "com.carisma.appstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290419748164-ld3o3k3467jhr22kkdtgbrnpeqijqrih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaM-F5qNsebL3naBRy-ulR7ABBYeaVCkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290419748164-ld3o3k3467jhr22kkdtgbrnpeqijqrih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
